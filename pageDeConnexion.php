@@ -1,3 +1,7 @@
+<?php
+session_unset();
+session_destroy();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,20 +10,9 @@
     <link rel='stylesheet' type='text/css' href='pageConnexion.css'/>
 </head>
 <body>
-<header>
-    <div id="img" style="width: 100%">
-        <img src="images/LOGO.png">
-    </div>
-    <div>
-        <nav id="menu">
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
-        </nav>
-    </div>
-</header>
+<?php
+include 'header.php'
+?>
 <section>
     <div id="connexion">
         <div>
@@ -43,9 +36,8 @@
             </form>
     </div>
 </section>
-<footer>
-    <blockquote> Fait par Liam Jourdain <br>Contactez nous: jouli1933471@etu.cegepjonquiere.ca
-    </blockquote>
-</footer>
+<?php
+include 'footer.php'
+?>
 </body>
 </html>
