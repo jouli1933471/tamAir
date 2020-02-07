@@ -1,0 +1,132 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background: url("images/flight_plane_sky_color_line_61872_1920x1080.jpg");
+    background-size: cover;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+}
+#img{
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+nav{
+    display : flex;
+    align-items:center;
+    justify-content: center;
+    flex-basis: 100%;
+    flex-direction: row;
+    background-color: black;
+    height:73px;
+}
+nav a {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 30px;
+}
+#menu a:hover {
+    background: gray;
+}
+#menu a:active {
+    background: gray;
+
+}
+/*formulaire*/
+section{
+    height: 60%;
+}
+form
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#connexion{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: x-large;
+}
+#label{
+    order: 1;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+#label input{
+    text-align: center;
+}
+#Identifiant{
+    margin-top: 1%;
+    width: 15%;
+    height: 20px;
+}
+#motDePasse{
+    margin-top: 1%;
+    width: 15%;
+    height: 20px;
+}
+#inscrireConnecter{
+    order: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3%;
+
+}
+#inscrireConnecter input{
+    display: flex;
+    align-items: center;
+    width: 10%;
+    height: 30px;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+#form
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+/* pied de page*/
+footer{
+    order: 3;
+    text-align: center;
+    text-decoration-style: dashed;
+    height: 20%;
+    background-color: black;
+    padding-bottom: initial;
+    color: white;
+}
+footer h2{
+    margin: 0px;
+    margin-top: 2%;
+}
+footer h3{
+    margin: 0px;
+}
+blockquote{
+    text-align: center;
+    text-decoration-style: dashed;
+    font-size: x-large;
+}
+

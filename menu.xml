@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<MENU>
+    <link>
+        <nom>Europe</nom>
+        <name>Europe</name>
+        <url>https://www.airtransat.com/fr-CA/europe</url>
+    </link>
+    <link>
+        <nom>Sud</nom>
+        <name>South</name>
+        <url>https://www.airtransat.com/fr-CA/sud</url>
+    </link>
+    <link>
+        <nom>Canada</nom>
+        <name>Canada</name>
+        <url>https://www.airtransat.com/fr-CA/canada</url>
+    </link>
+</MENU>

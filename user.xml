@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<login>
+    <user>
+        <nom>jourdain</nom>
+        <prenom>liam</prenom>
+        <email>liam.jourdain@hotmail.com</email>
+        <motpasse>123</motpasse>
+    </user>
+    <user>
+        <nom>dufour</nom>
+        <prenom>guillaume</prenom>
+        <email>jouli1933471@etu.cegepjonquiere.ca</email>
+        <motpasse>123</motpasse>
+    </user>
+    <user>
+        <nom>fortin</nom>
+        <prenom>william</prenom>
+        <email>liam.jourdain@gmail.com</email>
+        <motpasse>123</motpasse>
+    </user>
+</login>

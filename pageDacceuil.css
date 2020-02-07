@@ -1,0 +1,97 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background: url("images/flight_plane_sky_color_line_61872_1920x1080.jpg");
+    background-size: cover;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+}
+#img{
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+nav{
+    display : flex;
+    align-items:center;
+    justify-content: center;
+    flex-basis: 100%;
+    flex-direction: row;
+    background-color: black;
+    height: 15%;
+}
+nav a {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 30px;
+}
+#menu a:hover {
+    background: gray;
+}
+#menu a:active {
+    background: gray;
+
+}
+section{
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+}
+#menu2{
+    order: 1;
+    display: flex;
+    justify-content: center;
+    height: 95%;
+    width: 11%;
+    background-color:rgb(0,0,0);opacity: 0.6;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+#menu2 a {
+    color: white ;opacity: 1;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 30px;
+}
+#menu2 li{
+    list-style-type: none;
+}
+#menu2 ul{
+    padding-left: 0%;
+}
+#contenu{
+    order: 2;
+    height: max-content;
+    width: 75%;
+}
+/* pied de page*/
+footer{
+    order: 3;
+    text-align: center;
+    text-decoration-style: dashed;
+    height: 20%;
+    background-color: black;
+    padding-bottom: initial;
+    color: white;
+}
+footer h2{
+    margin: 0px;
+    margin-top: 2%;
+}
+footer h3{
+    margin: 0px;
+}
+blockquote{
+    text-align: center;
+    text-decoration-style: dashed;
+    font-size: x-large;
+}
