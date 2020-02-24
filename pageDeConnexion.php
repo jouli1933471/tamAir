@@ -1,4 +1,5 @@
 <?php
+session_start();
 session_unset();
 session_destroy();
 ?>
@@ -28,6 +29,10 @@ include 'header.php'
                 </div>
                 <div id="label">
                     <label for="MotdePasse"></label><input type="password" id="motDePasse" placeholder="Mot de passe" required name="motpasse">
+                </div>
+                <div id="label">
+                    <label for="Langue">Francais</label><input type="radio" id="LangueFrancais"  required name="Langue" value="Francais">
+                    <label for="Langue">Anglais</label><input type="radio" id="LangueAnglais"  required name="Langue" value="Anglais">
                 </div>
                 <div id="inscrireConnecter">
                     <input type="submit" value="S'inscrire" >

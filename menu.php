@@ -6,7 +6,10 @@
 
         foreach ($xml2->children() as $link)
         {
-            echo "<li><a href=\"$link->url\">$link->nom</a></li>";
+            if ($_COOKIE["langue"] == "LangueFrancais")
+                echo "<li><a href=\"$link->url\">$link->nom</a></li>";
+            else
+                echo "<li><a href=\"$link->url\">$link->name</a></li>";
         }
         ?>
     </ul>

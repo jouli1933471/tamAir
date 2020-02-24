@@ -1,5 +1,14 @@
 <?php
 session_start();
+
+$cookie_name = "langue";
+if ($_POST["Langue"]=="LangueFrancais")
+        $cookie_value = $_POST["Langue"];
+else
+    $cookie_value = "LangueAnglais";
+$expire = time() + 1 ;
+
+setcookie($cookie_name,$cookie_value,$expire);
 ?>
 <!DOCTYPE html>
 <html>
